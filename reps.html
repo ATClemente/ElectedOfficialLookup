@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Elected Official Lookup</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="reps.css" type="text/css">
+		
+	</head>
+	
+	<body>
+		
+		
+		<div id = "infoInput">
+			
+			<h1>Find Your Elected Officials</h1>
+			
+			<p>
+				To make it easier to find the members of congress you should be contacting for issues that may be of concern to you, 
+				please enter your address below to find your Senators and your local Representative.
+			</p>
+			
+			<form>
+				<fieldset>
+					<legend>Enter Your Address</legend>
+						<p><label>Street Address: <input type = "text" id = "street_input"></label></p>
+						<p><label>City: <input type = "text" id = "city_input"></label></p>
+						<p><label>State: <input type = "text" id = "state_input"></label></p>
+						<p><label>Zip Code: <input type = "text" id = "zip_input"></label></p>
+						<input type = "submit" label = "Submit" id = "addressSubmit">
+				</fieldset>
+			</form>
+		</div>
+		
+		<div id = "repInformationDisplay">
+			<h3>Your Representative Information:</h3>
+			
+			<div>
+				<h4>Your Senators:</h4>
+				
+				<div id = "firstSenator">
+					<label><span id = "firstSenatorName"></span></label>
+					<br>
+					<label>Phone Number: <span id = "firstSenatorNumber"></span></label>
+				</div>
+				
+				<div id = "secondSenator">
+					<label><span id = "secondSenatorName"></span></label>
+					<br>
+					<label>Phone Number: <span id = "secondSenatorNumber"></span></label>
+				</div>
+				
+				<p>
+					<h4>Your Representative:</h4>
+					
+					<div id = "rep">
+						<label>Representative: <span id = "repName"></span></label>
+						<br>
+						<label>Phone Number: <span id = "repNumber"></span></label>
+					</div>
+					
+				</p>
+			
+			</div>
+		</div>
+	   
+		<script src = "reps.js"></script>
+	</body>
+</html>

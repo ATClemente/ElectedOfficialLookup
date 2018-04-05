@@ -1,0 +1,121 @@
+#repInformationDisplay{
+	visibility: hidden;
+	width:70%;
+	margin-left: 15%;
+}
+
+
+#firstSenator{
+	border: 3px solid black;
+	margin-bottom: 10px;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: max-content;
+	margin-left: 5%;
+}
+
+#secondSenator{
+	border: 3px solid black;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: max-content;
+	margin-left: 5%;
+}
+
+#rep{
+	border: 3px solid black;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: max-content;
+	margin-left: 5%;
+}
+
+#contactArea{
+	margin-left: 15%;
+	padding-left:10px;
+}
+
+#infoInput{
+	margin-left: 15%;
+	width: 70%;
+	padding-left:10px;
+}
+
+img{
+	width: 70%;
+	height: 500px;
+	margin-left: 15%;
+}
+
+hr{
+
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), steelblue, rgba(0, 0, 0, 0));
+}
+
+h3{
+	font-weight:normal;
+	font-size: 1rem;
+}
+
+#contactArea{
+	position:relative;
+	width:70%;
+	padding-left:10px;
+}
+
+
+#steeringMember{
+	right:17%;
+	width:50%;
+	position:absolute;
+}
+
+#director{
+	left:1%;
+	width:50%;
+	position:absolute;
+}
+
+#dummyMember{
+	left:75%;
+	width:50%;
+	position:absolute;
+}
+
+#socialMedia{
+	margin-left: 15%;
+	margin-top: 150px;
+	padding-left:10px;
+}
+
+#navMenu{
+	background-color: #49c13a;
+}
+
+html, body { 
+	min-height: 100%; 
+}
+
+.leftSideBackground{
+	background-color:#bae1ef; 
+	width:15%;
+	height:183%;
+	position:absolute; 
+
+}
+
+.rightSideBackground{
+	background-color:#bae1ef; 
+	width:15%;
+	height:183%;
+	position:absolute; 
+
+	right: 0;
+}
+
+
